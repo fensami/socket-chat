@@ -37,6 +37,4 @@ io.on('connection', function (socket) {
 
 
 
-expressServer.listen(5000, function () {
-    console.log("server run 5000 port")
-})
+expressServer.listen()
